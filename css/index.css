@@ -1,0 +1,282 @@
+/*重置浏览器样式*/
+* {
+    /* padding: 0; */
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+body{
+	background: url(../image/background1.jpg);
+}
+/*清除浮动*/
+.clear:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+/* 头部 */
+.top{
+	height: 30px;
+	background: white;
+	border-bottom: 1px solid rgba(218, 218, 218, 1);
+}
+.left{
+	float: left;
+	font-size:22px;
+	font-weight: 400;
+}
+.load {
+	float: right;
+	font-size:20px;
+}
+.load a{
+	color: rgba(13,61,149,1);
+}
+.load a:hover {
+	color: orange;
+}
+.header{
+	height:160px;
+}
+.container1{
+	width: 1200px;
+	height: 120px;
+	margin: 0 auto;
+	text-align: center;
+}
+.logo {
+	width: 170px;
+	height: 40px;
+	font-size:40px;
+	color:rgba(108,166,210,1);
+	margin: 10px 59px 29px 30px;
+	display: inline-block;
+	float: left;
+}
+.container1 li{
+	width:50px;
+	height:38px;
+	margin: 40px 20px;
+	line-height: 38px;
+	float:left;
+}
+.container1 li:hover{
+	border-bottom:2px solid rgba(255,123,45,1);
+}
+.container1 ul a{
+	color:white;
+	font-size:18px;
+	font-weight:400;
+}
+.container1 a:hover{
+	color:rgba(255,123,45,1);
+}
+.form{
+	float: right;
+	margin-top: 40px;
+}
+.search{
+	float: left;
+	width: 200px;
+	height: 10px;
+	border:1px solid rgba(115,82,138,1);
+	font-size:10px;
+	font-weight: 400;
+	color:rgba(115,82,138,1);
+	padding:10px 19px 10px 19px;
+}
+.submit{
+	float: left;
+	width: 50px;
+	height: 32px;
+	border: 1px solid rgba(115,82,138,1);
+	background: rgba(243,245,247,1) ;
+}
+.container2{
+	width: 1200px;
+	height: 420px;
+	background: url(../image/banner.png) no-repeat center;
+	margin: 0 auto;
+	position: relative;
+}
+.visitor {
+	width: 500px;
+    height:40px;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
+.visitor li {
+     width: 150px;
+     height: 40px;
+     color:orange;
+}
+.visitor span {
+	font-size: 20px;
+	font-weight: 400;
+}
+.part1 {
+	width: 1200px;
+	height: 22px;    
+	margin: 38px auto 26px auto;
+}
+.font{
+	height:46px;
+	font-size:35px;
+	color:white;
+	font-weight: 500;
+	box-shadow:2px 2px 3px 3px rgba(19,190,249,0.5);
+	float: left;
+}
+.container3{
+	width:1105px;
+ 	height:18px;
+	font-size:16px;
+	padding: 21px 61px 21px 34px;
+	box-shadow:0px 2px 3px 0px rgba(118,118,118,0.2);
+	margin: 0px auto;
+	margin-top:16px; 
+}
+.container3 li{
+	border-right: 1px solid rgba(191,191,191,1);
+	text-align: center;
+	width: 132px;
+	float: left;
+}
+.container3 a{
+	color: white;
+	font-size: 16px;
+}
+.container3 a:hover{
+	color: #00A4FF;
+}
+.container3 div{
+		float: right;
+}
+.container3 div a{
+	color: #00A4FF;
+	font-size: 16px;
+}
+.container3 .last{
+	border: none;
+}
+.container3 .first a{
+	color: #00A4FF;
+}
+.part2 {
+	width: 1210px;
+	height: 354px;
+	margin: 0 auto;
+}
+.part2 ul li{
+	float: left;
+	width: 280px;
+	height: 300px;
+	margin:15px 7.5px 7.5px 0;
+	background: white;
+	box-shadow:3px 3px 3px 3px rgba(112,136,154,0.3);
+}
+.intro a{
+	font-size: 22px;
+	color: black;
+	line-height: 22px;
+}
+.intro a:hover {
+	color:rgba(108,166,210,1);
+}
+.info {
+	color: rgba(112,136,154,1);
+	padding-top: 6px;
+}
+.part3 {
+	margin: 0 auto;
+}
+.part3 p {
+	text-align: center;
+}
+.part3 .no a{
+	color: black;
+}
+.part4 {
+	width: 1200px;
+	height: 50px;    
+	margin: 38px auto 26px auto;
+}
+.container4 {
+	width:1105px;
+ 	height:18px;
+	font-size:16px;
+	padding: 21px 61px 21px 34px;
+	margin: 0px auto;
+	margin-top:16px;
+}
+.container4 {
+	width: 1210px;
+	height: 354px;
+	margin: 0 auto;
+}
+.container4 ul li{
+	float: left;
+	width: 300px;
+	height: 300px;
+	margin:15px 7.5px 7.5px 0;
+	background: white;
+	box-shadow:3px 3px 3px 3px rgba(112,136,154,0.3);
+}
+.text {
+	font-size: 22px;
+	font-weight: 300;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.text a{
+	color: black;
+}
+.text span{
+	color: orange;
+	font-weight: 700;
+}
+.foot {
+	height: 180px;
+	border-top: 1px solid black;
+    margin-top: 30px;
+    background: #FFF;
+}
+.bottom .list1 {
+    float: left;
+    width: 350px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 0 1000px;
+}
+.bottom .list2 {
+	margin-left: 300px;
+	margin-top: 20px;
+	padding-top: 60px;
+}
+.bottom .list2 li {
+	height: 30px;
+    font-size: 22px;
+    line-height: 30px;
+    margin:0 30px;
+    float: left; 
+}
+.foot-top .list2 a{
+	color: black;
+}
+.foot-bottom {
+	background: black;
+	height: 100px;
+	text-align: center;
+	color: white;
+    font-size: 22px;
+    padding-top: 40px;
+}
