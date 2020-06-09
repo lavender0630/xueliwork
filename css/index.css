@@ -201,8 +201,8 @@ body{
 .part3 p {
 	text-align: center;
 }
-.part3 .no a{
-	color: black;
+.part3 a{
+	color: white;
 }
 .part4 {
 	width: 1200px;
